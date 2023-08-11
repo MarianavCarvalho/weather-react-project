@@ -1,0 +1,49 @@
+.Weather{
+color: black;
+font-family: 'Poppins', sans-serif;
+line-height: normal;
+padding: 20px 15px;
+border: 1px solid #dadde1;
+border-radius: 6px;
+}
+
+.Weather .two{
+    margin:0 10px;
+}
+
+.Weather .col-6{
+    margin-top: 20px;
+    padding: 12px;
+}
+
+.Weather .cityData {
+    text-align: right;
+}
+
+.Weather .leftList .propertiesList {
+    text-align: left;
+    padding: 0px;
+}
+
+.Weather h1 {
+    font-size: 28px;
+}
+
+.Weather .date{
+    font-size: 18px;
+    margin: 5px 0 20px;
+}
+
+.Weather span{
+    font-size: 28px;
+    padding-right: 5px;
+
+}
+.Weather ul{
+    list-style: none;  
+    text-transform: capitalize;
+    padding-left: 0;
+    padding-right: 5px;
+    margin-bottom: 0;
+}
+
