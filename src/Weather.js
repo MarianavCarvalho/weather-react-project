@@ -19,7 +19,7 @@ setWeather({
     city: response.data.city,
     date: new Date(response.data.time * 1000),
     description: response.data.condition.description,
-    icon: response.data.condition.icon
+    icon: `http://shecodes-assets.s3.amazonaws.com/api/weather/icons/${response.data.condition.icon}.png`
 });
     }
 

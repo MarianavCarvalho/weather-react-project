@@ -20,9 +20,10 @@ border-radius: 6px;
     text-align: right;
 }
 
-.Weather .leftList .propertiesList {
+.Weather .propertiesList {
     text-align: left;
     padding: 0px;
+    margin-top: 28px;
 }
 
 .Weather h1 {
@@ -30,20 +31,30 @@ border-radius: 6px;
 }
 
 .Weather .date{
+    list-style: none;
     font-size: 18px;
-    margin: 5px 0 20px;
 }
+
+.Weather p{
+    display: inline;
+    font-size: 28px;
+}
+    
 
 .Weather span{
     font-size: 28px;
-    padding-right: 5px;
+    margin-right: 12px;
 
 }
 .Weather ul{
     list-style: none;  
     text-transform: capitalize;
-    padding-left: 0;
-    padding-right: 5px;
-    margin-bottom: 0;
+    margin: 5px 12px 0 0;
+    
 }
 
+.Weather .description{
+    list-style: none;
+    text-align: right;
+    margin: 10px 12px 0 0;
+}
