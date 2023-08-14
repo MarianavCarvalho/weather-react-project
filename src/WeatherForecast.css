@@ -1,0 +1,28 @@
+.WeatherForecast {
+    text-align: center;
+    margin: 15px 0;
+    padding: 0;
+
+}
+
+.WeatherForecast .forecastDays {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.WeatherForecast col-2 {
+    display: block;
+    padding: 0;
+}
+
+.WeatherForecast .maxTemperature {
+    font-size: larger;
+    font-weight: 500;
+}
+
+.WeatherForecast .minTemperature {
+    font-size: 14px;
+    font-weight: 400;
+
+}
