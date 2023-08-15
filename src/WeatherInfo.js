@@ -3,6 +3,7 @@ import FormatDate from "./FormatDate";
 import WeatherTemperature from "./WeatherTemperature";
 
 export default function WeatherInfo(props){
+    
     return( 
     <div className="row two">
         <div className="col-6 cityName">

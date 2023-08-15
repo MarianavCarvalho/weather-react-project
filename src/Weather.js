@@ -3,6 +3,7 @@ import axios from "axios";
 import "./Weather.css";
 import WeatherInfo from "./WeatherInfo";
 import WeatherForecast from "./WeatherForecast";
+import WeatherForecastDay from "./WeatherForecastDay";
 
 export default function Weather(props){
     
@@ -56,6 +57,7 @@ setCity(event.target.value);
 </form>
 <WeatherInfo data={weather}/>
 <WeatherForecast coordinates={weather.coordinates}/>
+<WeatherForecastDay icon={weather.icon} />
   </div> );
     } else {
             search()
