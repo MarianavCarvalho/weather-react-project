@@ -57,7 +57,7 @@ setCity(event.target.value);
 </form>
 <WeatherInfo data={weather}/>
 <WeatherForecast coordinates={weather.coordinates}/>
-<WeatherForecastDay icon={weather.icon} />
+
   </div> );
     } else {
             search()

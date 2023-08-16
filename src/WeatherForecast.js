@@ -10,15 +10,22 @@ export default function WeatherForecast(props){
 function handleResponse(response){
 setForecast(response.data.daily);
 setLoaded(true);
-
+}
 
 if(loaded) {
  return (
     <div className="row WeatherForecast">
-     <div className="col-2">
-    <WeatherForecastDay data={forecast[0]} />
+     
+        {forecast.map(function (dailyForecast, index){
+            if (index < 6){
+                return (
+          <div className="col-2" key={index}>
+     <WeatherForecastDay data={dailyForecast} />
         </div>
-     </div>
+                );
+            }
+        })}
+        </div>
     );
 } else {
 
@@ -30,7 +37,5 @@ let apiUrl= `https://api.shecodes.io/weather/v1/forecast?lon=${lon}&lat=${lat}&k
 axios.get(apiUrl).then(handleResponse);
 
  return null;
-}
- 
 }
 };
