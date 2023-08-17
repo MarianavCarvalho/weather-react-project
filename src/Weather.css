@@ -25,6 +25,9 @@ border-radius: 6px;
     padding: 0px;
     margin-top: 32px;
 }
+.Weather .propertiesList li{
+    margin-bottom: 2px;
+}
 
 .Weather h1 {
     font-size: 28px;
@@ -57,4 +60,8 @@ border-radius: 6px;
     list-style: none;
     text-align: right;
     margin: 10px 12px 0 0;
+}
+
+.Weather .col-3{
+ padding: 0px 24px;
 }
